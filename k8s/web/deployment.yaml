@@ -14,7 +14,7 @@ spec:
     spec: 
       containers:
         - name: movies
-          image: hill85/rotten-potatoes:v2
+          image: hill85/rotten-potatoes
           ports:
             - containerPort: 5000
           env: 
